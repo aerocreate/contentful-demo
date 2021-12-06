@@ -29,7 +29,10 @@ const Header = ({ siteTitle }) => (
             {siteTitle}
           </Link>
         </h1>
-        <Link to="https://www.google.com" class="menu-button self-end ">
+        <Link
+          to="https://be.contentful.com/login"
+          class="menu-button self-end "
+        >
           Go to Dashboard
         </Link>
       </div>
