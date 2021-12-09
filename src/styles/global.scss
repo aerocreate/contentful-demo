@@ -10,12 +10,12 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  background-color: $secondary-color;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -33,20 +33,21 @@ h4,
 h5,
 h6 {
   font: 200% $font-head;
-  color: $secondary-color;
+  color: $font-head-color;
 }
 
 p {
   font: 100% $font-body;
-  color: $secondary-color;
+  color: $font-body-color;
+  font-weight: 300;
 }
 
 a {
   font: 100% $font-body;
-  color: $secondary-color;
+  color: $font-body-color;
 }
 
 a.menu-button {
-  color: #ffffff;
+  color: $menu-button;
   font-size: 0.8rem;
 }

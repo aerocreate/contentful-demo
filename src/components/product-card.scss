@@ -1,5 +1,5 @@
 div.card {
-  background-color: #4787e7;
+  background-color: $primary-color;
   max-width: 20vw;
   height: auto;
   border-radius: 12px;
@@ -8,16 +8,20 @@ div.card {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   padding: 2rem;
-  color: black;
   text-decoration: none;
   font-style: normal;
 
   h2 {
-    color: #ffffff;
+    color: $font-head-color-two;
   }
 
-  p {
-    color: #ffffff;
+  h4 {
+    color: $font-head-color-two;
+  }
+
+  p,
+  a {
+    color: $font-body-color;
     text-decoration: none;
   }
 }
